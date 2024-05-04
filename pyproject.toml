@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clicker"
+version = "0.1.0"
+description = ""
+authors = ["Danil Sidoruk <danilsidoruknv@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^13.3"
+pynput = "^1.7.6"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
